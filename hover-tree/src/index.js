@@ -284,7 +284,7 @@ var Stats = function() {
     ctx.lineWidth = 1;
 
     if (ctx.frame % 60 == 0) {
-      console.log(hue.update(), Math.round(hue.update()), hue.phase, hue.offset, hue.frequency, hue.amplitude);
+      // console.log(hue.update(), Math.round(hue.update()), hue.phase, hue.offset, hue.frequency, hue.amplitude);
     }
 
     for (var i = 0, tendril; i < settings.trails; i++) {

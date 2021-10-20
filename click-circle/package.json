@@ -1,0 +1,19 @@
+{
+  "name": "click-circle",
+  "version": "1.0.0",
+  "description": "A animation for click event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "click"
+  ],
+  "author": "qinzijun",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.56.2",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

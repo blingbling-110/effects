@@ -406,7 +406,7 @@ var Stats = function() {
 
   window.onload = function () {
 
-    ctx = document.getElementById('canvas').getContext('2d');
+    ctx = document.getElementById('hover-tree').getContext('2d');
     ctx.stats = new Stats();
     ctx.running = true;
     ctx.frame = 1;
